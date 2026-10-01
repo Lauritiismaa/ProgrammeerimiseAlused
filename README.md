@@ -1,1 +1,5 @@
-# ProgrammeerimiseAlused Lauri Tiismaa
+# ProgrammeerimiseAlused
+
+Lauri Tiismaa
+
+Kodutööd ja tunnis tehtud programmeerimisharjutused.
