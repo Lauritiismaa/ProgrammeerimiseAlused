@@ -1,0 +1,11 @@
+@model Movie
+@{ ViewData["Title"] = "Lisa film"; }
+<h1>Lisa film</h1>
+<form asp-action="Create" method="post">
+    <input type="hidden" asp-for="Id" />
+    <partial name="_MovieForm" model="Model" />
+    <button type="submit">Salvesta</button>
+</form>
+<p><a asp-action="Index">Tagasi nimekirja</a></p>
+
+@section Scripts { <partial name="_ValidationScriptsPartial" /> }

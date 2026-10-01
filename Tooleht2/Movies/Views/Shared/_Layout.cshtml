@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewData["Title"] – Filmide andmebaas</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <header><nav><a asp-controller="Movies" asp-action="Index">Filmid</a> · <a asp-controller="HelloWorld" asp-action="Index">Tervitus</a></nav></header>
+    <main>@RenderBody()</main>
+    <footer>Lauri Tiismaa · Tööleht 2</footer>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
