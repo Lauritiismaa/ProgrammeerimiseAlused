@@ -1,0 +1,5 @@
+@model Movie
+@{ ViewData["Title"] = "Filmi andmed"; }
+<h1>@Model.Title</h1>
+<partial name="_MovieDetails" model="Model" />
+<a asp-action="Edit" asp-route-id="@Model.Id">Muuda</a> · <a asp-action="Index">Tagasi nimekirja</a>

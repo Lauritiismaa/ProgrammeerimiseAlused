@@ -2,31 +2,57 @@
 
 Lauri Tiismaa
 
-Kodutööd ja tunnis tehtud programmeerimisharjutused.
+Kodutööd ja programmeerimisharjutused. Lahendused sisaldavad käivitamisjuhiseid ja selgitusi, mille abil kood ise läbi töötada.
 
-## 1. kodutöö – arvamismäng
+## Projektid
 
-Projekt: [Kodutoo1/ArvamisMang](Kodutoo1/ArvamisMang)
+| Ülesanne | Asukoht | Sisu |
+| --- | --- | --- |
+| 1. kodutöö | [ArvamisMang](Kodutoo1/ArvamisMang) | Arvu äraarvamine, suurem/väiksem/õige, vigase sisendi kontroll |
+| Esimene tund (12.09) | [TereMaailm ja profiil](12-09-harjutused/README.md) | Nime küsimine, kaks committi, profiili README ettevalmistus |
+| Git | [Git-harjutused](Git-harjutused/README.md) | Harud, tegelik ühendamiskonflikt ja lahendus, käsujuhend |
+| Tööleht 2: MVC | [Movies](Tooleht2/Movies/README.md) | Filmid, SQLite, CRUD, otsing, valideerimine |
+| Tööleht 2: Web API | [TodoApi](Tooleht2/TodoApi/README.md) | Kontrolleripõhine CRUD API, DTO ja Postmani kogu |
 
-Programm hoiab kindlat arvu, küsib mängijalt pakkumist ja teatab, kas see on liiga suur, liiga väike või õige. Vale pakkumise korral saab uuesti proovida. Vigase sisendi korral palutakse sisestada täisarv.
+## Käivitamine
 
-### Käivitamine
-
-Vajalik on .NET 8 SDK või uuem SDK koos .NET 8 käituskeskkonnaga.
-
-Käivita hoidla juurkaustas:
+Kõik projektid kasutavad .NET 10 SDK-d, kooskõlas õpetaja töölehe praeguste Microsofti juhenditega. Ka varasem arvamismäng on ühtlustatud .NET 10 peale.
+Ava Visual Studios `ProgrammeerimiseAlused.sln` või kasuta terminali:
 
 ```sh
+dotnet build ProgrammeerimiseAlused.sln
 dotnet run --project Kodutoo1/ArvamisMang
+dotnet run --project 12-09-harjutused/TereMaailm
 ```
 
-### Käsitsi kontrollimine
+Käivita veebiprojektid eraldi terminalides:
 
-- Sisesta `50`: vastus peab olema „liiga suur”.
-- Sisesta `20`: vastus peab olema „liiga väike”.
-- Sisesta `tere`: programm peab paluma sisestada täisarvu.
-- Sisesta `42`: vastus peab olema „Õige” ja mäng peab lõppema.
+```sh
+dotnet run --project Tooleht2/Movies --launch-profile http
+dotnet run --project Tooleht2/TodoApi --launch-profile http
+```
 
-## Ülejäänud ülesanded
+- Filmid: http://localhost:5101/Movies
+- API: http://localhost:5102/api/todoitems
+- Postmani importfail: `Tooleht2/TodoApi/TodoApi.postman_collection.json`
 
-Giti harjutused, 12.09 tunni harjutused ja tööleht 2 lisatakse nende tegemisel.
+## Kontrollimine
+
+[Kontrollide kirjeldus ja tulemused](Kontrollid/README.md).
+Veebikontrolli saab pärast kompileerimist korrata Python 3 abil:
+
+```sh
+python Kontrollid/smoke_test.py
+```
+
+See loob ajutise andmebaasi ja käivitab projektid portidel 15101 ning 15102. Igapäevase arenduse andmebaasi ei muudeta.
+
+## Veel isiklikult lõpetada
+
+- GitHubi profiilipilt, lühitutvustus ning 2FA seadistus.
+- Profiili hoidla `Lauritiismaa` loomine ja ettevalmistatud README lisamine.
+- Töölehtedel nõutud eraldi hoidlad `TereMaailm`, `Movies` ja `TodoApi` (kood on praegu siin ühishoidlas).
+- Kontrollida, et õpetaja `gpeipman` oleks koolitööde hoidlasse kutsutud.
+- Läbida käivitamine enda Visual Studios ja päringud Postmanis ning mõista koodi tööd.
+
+Neid kontoga ja enda arvutis õppimisega seotud samme ei loeta üksnes lähtekoodi olemasolu põhjal tehtuks.

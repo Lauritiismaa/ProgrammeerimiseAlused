@@ -4,3 +4,9 @@
 *.user
 *.suo
 .DS_Store
+
+# Kohalikud arendusandmebaasid ja logid
+*.db
+*.db-shm
+*.db-wal
+*.log

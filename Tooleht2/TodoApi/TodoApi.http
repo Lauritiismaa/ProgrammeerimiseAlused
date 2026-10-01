@@ -1,0 +1,22 @@
+@baseUrl = http://localhost:5102
+
+### Kõik ülesanded
+GET {{baseUrl}}/api/todoitems
+
+### Lisa ülesanne; kopeeri vastuse id järgmistesse päringutesse
+POST {{baseUrl}}/api/todoitems
+Content-Type: application/json
+
+{"name":"Õpi C# keelt","isComplete":false}
+
+### Üks ülesanne
+GET {{baseUrl}}/api/todoitems/1
+
+### Muuda ülesannet
+PUT {{baseUrl}}/api/todoitems/1
+Content-Type: application/json
+
+{"id":1,"name":"Õpi C# keelt","isComplete":true}
+
+### Kustuta ülesanne
+DELETE {{baseUrl}}/api/todoitems/1

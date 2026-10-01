@@ -1,0 +1,7 @@
+@model Movie
+@{ ViewData["Title"] = "Kustuta film"; }
+<h1>Kustuta film</h1>
+<p>Kas soovid selle filmi kustutada?</p>
+<partial name="_MovieDetails" model="Model" />
+<form asp-action="Delete" method="post"><input type="hidden" asp-for="Id" /><button type="submit">Kustuta</button></form>
+<p><a asp-action="Index">Loobu</a></p>
