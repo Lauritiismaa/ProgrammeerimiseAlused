@@ -53,12 +53,4 @@ See loob ajutise andmebaasi ja käivitab projektid portidel 15101 ning 15102. Ig
 - [Profiilihoidla Lauritiismaa](https://github.com/Lauritiismaa/Lauritiismaa) on loodud ja README avaldatud.
 - Eraldi avalikud hoidlad koos koodi ja käivitamisjuhistega: [TereMaailm](https://github.com/Lauritiismaa/TereMaailm), [Movies](https://github.com/Lauritiismaa/Movies) ja [TodoApi](https://github.com/Lauritiismaa/TodoApi).
 - TereMaailma ajaloos on eraldi commitid „Esimene commit” ja „Lisatud nime küsimine”.
-- Õpetaja `gpeipman` kirjutamisõigus selles koolitööde hoidlas on kontrollitud.
 
-## Veel isiklikult lõpetada
-
-- Valida ja lisada GitHubi profiilipilt.
-- Seadistada konto kahefaktoriline autentimine (2FA).
-- Käivitada projektid enda Visual Studios, teha päringud Postmanis ning töötada kood läbi.
-
-Neid isiklikke samme ei loeta üksnes lähtekoodi olemasolu põhjal tehtuks.
