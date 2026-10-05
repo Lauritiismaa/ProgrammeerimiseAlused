@@ -47,12 +47,18 @@ python Kontrollid/smoke_test.py
 
 See loob ajutise andmebaasi ja käivitab projektid portidel 15101 ning 15102. Igapäevase arenduse andmebaasi ei muudeta.
 
+## GitHubis tehtud
+
+- Profiili nimi ja lühitutvustus on lisatud.
+- [Profiilihoidla Lauritiismaa](https://github.com/Lauritiismaa/Lauritiismaa) on loodud ja README avaldatud.
+- Eraldi avalikud hoidlad koos koodi ja käivitamisjuhistega: [TereMaailm](https://github.com/Lauritiismaa/TereMaailm), [Movies](https://github.com/Lauritiismaa/Movies) ja [TodoApi](https://github.com/Lauritiismaa/TodoApi).
+- TereMaailma ajaloos on eraldi commitid „Esimene commit” ja „Lisatud nime küsimine”.
+- Õpetaja `gpeipman` kirjutamisõigus selles koolitööde hoidlas on kontrollitud.
+
 ## Veel isiklikult lõpetada
 
-- GitHubi profiilipilt, lühitutvustus ning 2FA seadistus.
-- Profiili hoidla `Lauritiismaa` loomine ja ettevalmistatud README lisamine.
-- Töölehtedel nõutud eraldi hoidlad `TereMaailm`, `Movies` ja `TodoApi` (kood on praegu siin ühishoidlas).
-- Kontrollida, et õpetaja `gpeipman` oleks koolitööde hoidlasse kutsutud.
-- Läbida käivitamine enda Visual Studios ja päringud Postmanis ning mõista koodi tööd.
+- Valida ja lisada GitHubi profiilipilt.
+- Seadistada konto kahefaktoriline autentimine (2FA).
+- Käivitada projektid enda Visual Studios, teha päringud Postmanis ning töötada kood läbi.
 
-Neid kontoga ja enda arvutis õppimisega seotud samme ei loeta üksnes lähtekoodi olemasolu põhjal tehtuks.
+Neid isiklikke samme ei loeta üksnes lähtekoodi olemasolu põhjal tehtuks.
