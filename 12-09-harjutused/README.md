@@ -32,15 +32,8 @@ git log -p -- 12-09-harjutused/TereMaailm/Program.cs
 
 ## Harjutused 1 ja 2: GitHubi konto ning profiil
 
-Konto ja koolitööde hoidla on olemas. Profiili README sisu on valmis failis
-[Profiil/README.md](Profiil/README.md).
+Konto nimi ja lühitutvustus on lisatud. Avalik [profiilihoidla Lauritiismaa](https://github.com/Lauritiismaa/Lauritiismaa) on loodud ning selle README kuvatakse profiilil.
 
-Järgmised sammud ei ole selle hoidla failide lisamisega automaatselt täidetud:
+Eraldi avalik [TereMaailma hoidla](https://github.com/Lauritiismaa/TereMaailm) sisaldab programmi ja kahte harjutuse committi: `Esimene commit` ning `Lisatud nime küsimine`.
 
-- Kontrolli GitHubi profiilipilti ja lühitutvustust.
-- Lülita konto seadetes sisse kahefaktoriline autentimine (2FA).
-- Loo avalik hoidla `Lauritiismaa` ning pane sinna faili `Profiil/README.md` sisu nimega `README.md`. See ilmub GitHubi profiilile.
-- Tööleht palub luua ka eraldi avaliku `TereMaailm` hoidla. Siin asub sama projekt koolitööde ühishoidlas.
-- Ava projekt enda Visual Studios või VS Code'is, käivita see ja vaata muudatuste ajalugu.
-
-Kontoga seotud seadistusi ega Visual Studio kasutamist ei ole sinu eest tehtuks märgitud.
+Veel tuleb valida profiilipilt ja seadistada konto 2FA. Ava projekt enda Visual Studios või VS Code'is, käivita see ning vaata muudatuste ajalugu.
