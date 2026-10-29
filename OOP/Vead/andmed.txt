@@ -1,0 +1,3 @@
+Tere!
+See on OOP veakäsitluse kolmanda harjutuse näidisfail.
+Faili olemasolul loetakse selle sisu; puuduva faili korral püütakse FileNotFoundException.
