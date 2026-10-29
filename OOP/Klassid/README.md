@@ -17,7 +17,7 @@ Selles kaustas on **Klassid** peatüki kõik viis harjutust C# keeles:
 
 Eeldus: .NET 8 SDK.
 
-Hoïdla juurkaustast:
+Hoidla juurkaustast:
 
 ```bash
 dotnet run --project OOP/Klassid/Klassid.csproj
